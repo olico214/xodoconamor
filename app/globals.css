@@ -1,3 +1,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+body{
+    background-color: rgba(250, 239, 241, 0.76);
+}
+
+
+.navColor{
+    background-color: rgba(253, 201, 210, 0.76);
+    position: sticky;
+    top: 0;
+    width: 100%
+}

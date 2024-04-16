@@ -6,23 +6,6 @@ import { FaBars, FaTimes } from "react-icons/fa";
 const Navbar = () => {
     const [nav, setNav] = useState(false);
 
-    // Function to hide nav on resize
-const handleResize = () => {
-    if (window.innerWidth >= 768) { // Assuming 768px is your md breakpoint
-        setNav(false);
-    }
-};
-
-// Set up event listener for window resize
-useEffect(() => {
-    window.addEventListener('resize', handleResize);
-
-    // Clean up the event listener
-    return () => {
-        window.removeEventListener('resize', handleResize);
-    };
-}, []);
-
   const links = [
     {
       id: 1,

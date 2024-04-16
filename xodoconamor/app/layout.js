@@ -1,8 +1,6 @@
 import "./globals.css";
 import Navbar from "./component/navbar/page";
-import { Head } from "next/document";
 
-const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Create Next App",
@@ -13,9 +11,8 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body>
-        <head></head>
-        <main>{children}</main>
-        <footer></footer>
+        <Navbar/>
+        {children}
       </body>
     </html>
   );

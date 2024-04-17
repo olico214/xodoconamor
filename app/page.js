@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <div>
       <Hero/> 
-      <Filter/>    
+      {/* <Filter/>     */}
       <Footer/>
     </div>
   );

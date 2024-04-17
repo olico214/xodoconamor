@@ -9,24 +9,25 @@ const Navbar = () => {
   const links = [
     {
       id: 1,
-      link: "home",
+      name:"Inicio",
+      link: "/",
     },
     {
       id: 2,
-      link: "about",
+      name:"Productos",
+      link: "/page/products",
     },
     {
       id: 3,
-      link: "portfolio",
+      name: "Mi Carrito",
+      link: "/page/checkout",
     },
     {
       id: 4,
-      link: "experience",
+      name:"Iniciar Sesión",
+      link: "/page/login",
     },
-    {
-      id: 5,
-      link: "contact",
-    },
+    
   ];
 
   return (
@@ -46,12 +47,12 @@ const Navbar = () => {
       </div>
 
       <ul className="hidden md:flex">
-        {links.map(({ id, link }) => (
+        {links.map(({ id, link,name }) => (
           <li
             key={id}
             className="px-4 font-medium text-gray-500 capitalize duration-200 cursor-pointer nav-links hover:scale-105 hover:text-white link-underline"
           >
-            <Link href={link}>{link}</Link>
+            <Link href={link}>{name}</Link>
           </li>
         ))}
       </ul>
@@ -65,13 +66,13 @@ const Navbar = () => {
 
       {nav && (
         <ul className="absolute top-0 left-0 flex flex-col items-center justify-center w-full h-screen text-gray-500 bg-gradient-to-b from-black to-gray-800">
-          {links.map(({ id, link }) => (
+          {links.map(({ id, link, name }) => (
             <li
               key={id}
               className="px-4 py-6 text-4xl capitalize cursor-pointer"
             >
               <Link onClick={() => setNav(!nav)} href={link}>
-                {link}
+                {name}
               </Link>
             </li>
           ))}

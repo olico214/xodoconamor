@@ -10,7 +10,7 @@ body{
 
 .navColor{
     background-color: rgba(253, 201, 210, 0.76);
-    position: sticky;
+    position: relative;
     top: 0;
     width: 100%
 }

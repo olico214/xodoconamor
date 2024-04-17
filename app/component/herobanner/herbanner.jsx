@@ -1,4 +1,3 @@
-import Component from "./carrousel"
 
 
 export default function Hero() {
@@ -25,7 +24,7 @@ export default function Hero() {
             </a>
           </div>
           <div className="justify-center p-8 mt-12 mb-6 ml-0 md:mb-0 md:mt-0 md:ml-12 lg:w-2/3">
-            <Component/>
+           {/* Aqui va el texto*/}
           </div>
         </div>
       </div>

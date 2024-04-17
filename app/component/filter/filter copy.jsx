@@ -1,4 +1,3 @@
-"use client"
 import MyPage from "../productos/page";
 import { useState } from 'react';
 
@@ -23,43 +22,43 @@ export default function Filter() {
           <li>
             <a  className="inline-flex items-center gap-1">
               <input type="checkbox" id="fashion" className="form-checkbox" />
-              <label htmlFor="fashion" className="mb-0 cursor-pointer">Fashion</label>
+              <label for="fashion" className="mb-0 cursor-pointer">Fashion</label>
             </a>
           </li>
           <li>
             <a  className="inline-flex items-center gap-1">
               <input type="checkbox" id="electronics" className="form-checkbox" />
-              <label htmlFor="electronics" className="mb-0 cursor-pointer">Electronics</label>
+              <label for="electronics" className="mb-0 cursor-pointer">Electronics</label>
             </a>
           </li>
           <li>
             <a  className="inline-flex items-center gap-1">
               <input type="checkbox" id="kids" className="form-checkbox" />
-              <label htmlFor="kids" className="mb-0 cursor-pointer">Kids</label>
+              <label for="kids" className="mb-0 cursor-pointer">Kids</label>
             </a>
           </li>
           <li>
             <a  className="inline-flex items-center gap-1">
               <input type="checkbox" id="grocery" className="form-checkbox" />
-              <label htmlFor="grocery" className="mb-0 cursor-pointer">Grocery</label>
+              <label for="grocery" className="mb-0 cursor-pointer">Grocery</label>
             </a>
           </li>
           <li>
             <a  className="inline-flex items-center gap-1">
               <input type="checkbox" id="kitchen" className="form-checkbox" />
-              <label htmlFor="kitchen" className="mb-0 cursor-pointer">Kitchen</label>
+              <label for="kitchen" className="mb-0 cursor-pointer">Kitchen</label>
             </a>
           </li>
           <li>
             <a  className="inline-flex items-center gap-1">
               <input type="checkbox" id="furniture" className="form-checkbox" />
-              <label htmlFor="furniture" className="mb-0 cursor-pointer">Furniture</label>
+              <label for="furniture" className="mb-0 cursor-pointer">Furniture</label>
             </a>
           </li>
           <li>
             <a  className="inline-flex items-center gap-1">
               <input type="checkbox" id="watches" className="form-checkbox" />
-              <label htmlFor="watches" className="mb-0 cursor-pointer">Watches</label>
+              <label for="watches" className="mb-0 cursor-pointer">Watches</label>
             </a>
           </li>
         </ul>
@@ -80,37 +79,37 @@ export default function Filter() {
           <li>
             <a  className="inline-flex items-center gap-1">
               <input type="checkbox" id="boat" className="form-checkbox" />
-              <label htmlFor="boat" className="mb-0 cursor-pointer">Boat</label>
+              <label for="boat" className="mb-0 cursor-pointer">Boat</label>
             </a>
           </li>
           <li>
             <a  className="inline-flex items-center gap-1">
               <input type="checkbox" id="apple" className="form-checkbox" />
-              <label htmlFor="apple" className="mb-0 cursor-pointer">Apple</label>
+              <label for="apple" className="mb-0 cursor-pointer">Apple</label>
             </a>
           </li>
           <li>
             <a  className="inline-flex items-center gap-1">
               <input type="checkbox" id="oneplus" className="form-checkbox" />
-              <label htmlFor="oneplus" className="mb-0 cursor-pointer">Oneplus</label>
+              <label for="oneplus" className="mb-0 cursor-pointer">Oneplus</label>
             </a>
           </li>
           <li>
             <a  className="inline-flex items-center gap-1">
               <input type="checkbox" id="redmi" className="form-checkbox" />
-              <label htmlFor="redmi" className="mb-0 cursor-pointer">Redmi</label>
+              <label for="redmi" className="mb-0 cursor-pointer">Redmi</label>
             </a>
           </li>
           <li>
             <a  className="inline-flex items-center gap-1">
               <input type="checkbox" id="samsung" className="form-checkbox" />
-              <label htmlFor="samsung" className="mb-0 cursor-pointer">Samsung</label>
+              <label for="samsung" className="mb-0 cursor-pointer">Samsung</label>
             </a>
           </li>
           <li>
             <a  className="inline-flex items-center gap-1">
               <input type="checkbox" id="oppo" className="form-checkbox" />
-              <label htmlFor="oppo" className="mb-0 cursor-pointer">Oppo</label>
+              <label for="oppo" className="mb-0 cursor-pointer">Oppo</label>
             </a>
           </li>
         </ul>
@@ -118,7 +117,7 @@ export default function Filter() {
       <div className="h-px w-full border-b border-[#e0e6ed] dark:border-[#1b2e4b]"></div>
 
             </div>
-            {isFilterMenuOpen && <div className="bg-pink-200/10 z-[5] w-full h-full absolute rounded-md " onClick={toggleFilterMenu}></div>}
+            {isFilterMenuOpen && <div className="bg-black/1 z-[5] w-full h-full absolute rounded-md" onClick={toggleFilterMenu}></div>}
             <div className="bg-black/1 z-[5] w-full h-full absolute rounded-md hidden sm:block"></div>
             <div className="panel flex-1 overflow-y-auto">
                 <div className="sm:absolute sm:top-5 ltr:sm:left-5 rtl:sm:right-5 mb-5">

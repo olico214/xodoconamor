@@ -1,6 +1,6 @@
 export default function Page(){
 
     return(
-        <div>Iniciar Sesion</div>
+        <div>signup</div>
     )
 }

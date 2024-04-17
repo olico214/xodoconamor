@@ -25,7 +25,7 @@ const Navbar = () => {
     {
       id: 4,
       name:"Iniciar Sesión",
-      link: "/page/login",
+      link: "/page/account/login",
     },
     
   ];
